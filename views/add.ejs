@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hi</title>
+</head>
+
+<body>
+    <div class="col-md-4 offset-4">
+        <form action="add" method="POST">
+            <div class="form-group">
+                <label for="input1">tên sản phẩm</label>
+                <input type="text" id="input1" name="Name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="input1">thể loại sản phẩm</label>
+                <select name="Category" class="form-control">
+                    <option value="Đồ điện">Đồ điện</option>
+                    <option value="Đồ gỗ">Đồ gỗ</option>
+                </select>
+               
+            </div>
+        
+            <div class="form-group">
+                <label for="input1">giá sản phẩm</label>
+                <input type="text" id="input1" name="Price" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="input1">mô tả</label>
+                <input type="text" id="input1" name="Description" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="input1">url</label>
+                <input type="text" id="input1" name="Url" class="form-control">
+            </div>
+            <div class="form-group ">
+                <button type="submit" class="btn btn-primary float-right">Thêm sản phẩm</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

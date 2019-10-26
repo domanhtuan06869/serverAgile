@@ -1,0 +1,132 @@
+<div class="sidebar" data-color="white" data-active-color="danger">
+    <!--
+      Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+  -->
+    <div class="logo">
+      <a href="http://www.creative-tim.com" class="simple-text logo-mini">
+        <div class="logo-image-small">
+          <img src="../assets/img/logo-small.png">
+        </div>
+      </a>
+      <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+    <%=user%>
+      
+      </a>
+    </div>
+    <div class="sidebar-wrapper">
+      <ul class="nav">
+          <% if (active=='activea') { %>
+        <li class="">
+          <a href="/product">
+            <i class="nc-icon nc-bank"></i>
+            <p>Quản lí sản phẩm</p>
+          </a>
+        </li>
+   
+
+        <li class="active">
+          <a href="/manager">
+            <i class="nc-icon nc-tile-56"></i>
+            <p>Quản lí đặt hàng</p>
+          </a>
+        </li>
+        <li class="">
+            <a href="/manager/datlich">
+            <i class="fas fa-calendar-alt"></i>
+            <p>Quản lí đặt lịch</p>
+          </a>
+        </li>
+        <li class="">
+            <a href="/product/thongke">
+            <i class="far fa-calendar-minus"></i>
+            <p>Thống kê</p>
+          </a>
+        </li>
+        <% } %>
+        <% if (active=='activeb') { %>
+          <li class="active">
+            <a href="/product">
+              <i class="nc-icon nc-bank"></i>
+              <p>Quản lí sản phẩm</p>
+            </a>
+          </li>
+     
+  
+          <li class="">
+            <a href="/manager">
+              <i class="nc-icon nc-tile-56"></i>
+              <p>Quản lí đặt hàng</p>
+            </a>
+          </li>
+          <li class="">
+            <a href="/manager/datlich">
+              <i class="fas fa-calendar-alt"></i>
+              <p>Quản lí đặt lịch</p>
+            </a>
+          </li>
+          <li class="">
+              <a href="/product/thongke">
+              <i class="far fa-calendar-minus"></i>
+              <p>Thống kê</p>
+            </a>
+          </li>
+          <% } %>
+          <% if (active=='activec') { %>
+            <li class="">
+              <a href="/product">
+                <i class="nc-icon nc-bank"></i>
+                <p>Quản lí sản phẩm</p>
+              </a>
+            </li>
+       
+    
+            <li class="">
+              <a href="/manager">
+                <i class="nc-icon nc-tile-56"></i>
+                <p>Quản lí đặt hàng</p>
+              </a>
+            </li>
+            <li class="active">
+              <a href="/manager/datlich">
+                <i class="fas fa-calendar-alt"></i>
+                <p>Quản lí đặt lịch</p>
+              </a>
+            </li>
+            <li class="">
+                <a href="/product/thongke">
+                <i class="far fa-calendar-minus"></i>
+                <p>Thống kê</p>
+              </a>
+            </li>
+            <% } %>
+            <% if (active=='actived') { %>
+              <li class="">
+                <a href="/product">
+                  <i class="nc-icon nc-bank"></i>
+                  <p>Quản lí sản phẩm</p>
+                </a>
+              </li>
+         
+      
+              <li class="">
+                <a href="/manager">
+                  <i class="nc-icon nc-tile-56"></i>
+                  <p>Quản lí đặt hàng</p>
+                </a>
+              </li>
+              <li class="">
+                <a href="/manager/datlich">
+                  <i class="fas fa-calendar-alt"></i>
+                  <p>Quản lí đặt lịch</p>
+                </a>
+              </li>
+              <li class="active">
+                <a href="/product/thongke">
+                  <i class="far fa-calendar-minus"></i>
+                  <p>Thống kê</p>
+                </a>
+              </li>
+              <% } %>
+      </ul>
+    </div>
+  </div>
